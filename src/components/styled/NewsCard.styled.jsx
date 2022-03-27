@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NewsCardWrapper = styled.div`
+export const NewsCardWrapperStyled = styled.div`
     margin: 1rem 0;
     padding: 1rem;
     line-height: 1.5;
