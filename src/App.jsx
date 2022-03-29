@@ -1,12 +1,15 @@
 import React from "react";
 import NewsFeed from "./components/NewsFeed.jsx";
-import { Container } from "./components/styled/Container.styled.jsx";
+import { ContainerStyled } from "./components/styled/Container.styled.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 export default function App() {
-    
     return (
-        <Container>
-            <NewsFeed />
-        </Container>
+        <div>
+            <NavBar />
+            <ContainerStyled>
+                <NewsFeed />
+            </ContainerStyled>
+        </div>
     );
 }
