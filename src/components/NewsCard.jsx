@@ -7,7 +7,7 @@ export default function NewsCard({
     return (
         <NewsCardWrapperStyled>
             <h1>{title}</h1>
-            {body}
+            <p>{body}</p>
         </NewsCardWrapperStyled>
     );
 }
